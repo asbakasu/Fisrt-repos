@@ -2,7 +2,7 @@ name: Auto Commit Dummy File
 
 on:
   schedule:
-    - cron: '0 * * * *'    # setiap jam tepat UTC
+    - cron: '0 0 * * *'    # setiap jam tepat UTC
   workflow_dispatch:      # bisa dijalankan manual
 
 jobs:
